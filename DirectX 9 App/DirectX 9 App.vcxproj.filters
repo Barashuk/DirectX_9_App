@@ -13,10 +13,90 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{479ddb21-b12d-4106-a944-605822a8dda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mp3 class">
+      <UniqueIdentifier>{26aa1060-19ff-42d6-a3cf-cf5cf2310621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bass.dll">
+      <UniqueIdentifier>{ccbe527f-4217-45f7-b357-1b0708e214fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font Awesome">
+      <UniqueIdentifier>{107ba5a3-a819-4a94-b073-8bb308afd57f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="..\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\backends\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="CMP3Player_funcs.cpp">
+      <Filter>mp3 class</Filter>
+    </ClCompile>
+    <ClCompile Include="CMP3Player_draw.cpp">
+      <Filter>mp3 class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="CMP3Player.h">
+      <Filter>mp3 class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bass_dll\bass.h">
+      <Filter>bass.dll</Filter>
+    </ClInclude>
+    <ClInclude Include="fa-brands-400.h">
+      <Filter>Font Awesome</Filter>
+    </ClInclude>
+    <ClInclude Include="fa-regular-400.h">
+      <Filter>Font Awesome</Filter>
+    </ClInclude>
+    <ClInclude Include="fa-solid-900.h">
+      <Filter>Font Awesome</Filter>
+    </ClInclude>
+    <ClInclude Include="IconsFontAwesome6.h">
+      <Filter>Font Awesome</Filter>
+    </ClInclude>
+    <ClInclude Include="IconsFontAwesome6Brands.h">
+      <Filter>Font Awesome</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
